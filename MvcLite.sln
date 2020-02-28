@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcLite", "MvcLite\MvcLite.csproj", "{59DDB790-17D2-4AC4-8DEE-7FAB12759E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcLite.Web", "MvcLite.Web\MvcLite.Web.csproj", "{F7F44405-7572-485E-AED3-B306E6EFFE84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59DDB790-17D2-4AC4-8DEE-7FAB12759E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DDB790-17D2-4AC4-8DEE-7FAB12759E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DDB790-17D2-4AC4-8DEE-7FAB12759E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DDB790-17D2-4AC4-8DEE-7FAB12759E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F44405-7572-485E-AED3-B306E6EFFE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F44405-7572-485E-AED3-B306E6EFFE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F44405-7572-485E-AED3-B306E6EFFE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F44405-7572-485E-AED3-B306E6EFFE84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECA8C635-6C35-4FDB-ACC5-FDDB4500576E}
+	EndGlobalSection
+EndGlobal
