@@ -40,10 +40,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionInfo.cs" />
+    <Compile Include="ActionResult.cs" />
+    <Compile Include="AllowAnonymousAttribute.cs" />
+    <Compile Include="ContentResult.cs" />
     <Compile Include="Controller.cs" />
+    <Compile Include="ControllerContext.cs" />
+    <Compile Include="ControllerInfo.cs" />
+    <Compile Include="DoNotTrackAttribute.cs" />
+    <Compile Include="FileResult.cs" />
     <Compile Include="HttpModule.cs" />
+    <Compile Include="MimeTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RouteAttribute.cs" />
+    <Compile Include="RouteHelper.cs" />
+    <Compile Include="RouteInfo.cs" />
     <Compile Include="SessionHandler.cs" />
+    <Compile Include="ViewParser.cs" />
+    <Compile Include="ViewResult.cs" />
+    <Compile Include="WebApp.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
